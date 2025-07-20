@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+.env
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Package management
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.benchmarks/
+
+# Type checking & Static analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+
+# IDE & Editors
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache & Temporary
+.cache/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Git & Development
+*.orig
+*.rej
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.parquet
+*.h5
+*.hdf5
+
+# ML/AI specific
+checkpoints/
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQL Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector Databases
+*.faiss
+*.index
+faiss_data/
+chroma_db/
+milvus_data/
+qdrant_storage/
+
+# NoSQL
+*.rdb
+*.bson
+
+# Database backups
+*.dump
+
+# Documentation
+docs/_build/
+/site
+
+# Config & Secrets
+config.ini
+secrets.json
+.secrets/
+*.key
+*.pem
