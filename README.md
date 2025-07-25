@@ -74,7 +74,7 @@ just
 
 ---
 
-# ✅ Common Git Commands
+## ✅ Common Git Commands
 
 | Command                   | Purpose                                            |
 | ------------------------- | -------------------------------------------------- |
@@ -95,7 +95,7 @@ just
 
 ---
 
-# 🔐 Setting Up SSH Key for GitHub
+## 🔐 Setting Up SSH Key for GitHub
 
 1. **Generate a new SSH key:**
 
@@ -137,4 +137,4 @@ Distributed under your preferred license (MIT, Apache‑2.0, etc.).
 
 ## 🙌 Contributing
 
-PRs and issues are welcome—feel free to help us improve **TKHBits**! 🚀
+PRs and issues are welcome—feel free to help us improve **Copier-pypackage**! 🚀
