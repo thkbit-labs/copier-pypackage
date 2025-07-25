@@ -1,0 +1,12 @@
+src = [".", "src", "tests"]
+target-version = "py310"
+[lint]
+select = [
+    "E", # pycodestyle (quy tắc định dạng mã)
+
+    "F", #pyflakes (lỗi logic, biến chưa dùng,…)
+
+    "B", # flake8-bugbear (các cảnh báo mã tiềm ẩn lỗi khó thấy)
+
+    "I", # isort (kiểm tra thứ tự import)
+]

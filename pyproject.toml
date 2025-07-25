@@ -1,0 +1,19 @@
+[project]
+name = "copier-pypackage"
+version = "0.1.0"
+description = "Lear and traning code base ( python package, git workflow, git command, tool... "
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Thkbit-labs", email = "thkbit_lab@gmail.com" }]
+dependencies = ["ruff>=0.12.5"]
+
+[dependency-groups]
+dev = ["ruff>=0.12.5"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"]
+ignore = ["F401"]
